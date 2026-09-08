@@ -1,0 +1,81 @@
+{
+  "synthetic": true,
+  "period_start": "2026-01",
+  "records": [
+    {
+      "id": "SYN-JDG-001",
+      "entity": "Feigin Electric Andrii Charnosh - JDG Polska",
+      "kind": "receivable",
+      "document_type": "invoice",
+      "counterparty": "Synthetic customer A",
+      "issue_date": "2026-01-15",
+      "due_date": "2026-02-14",
+      "amount": 12000,
+      "currency": "PLN",
+      "source": "synthetic_demo_data",
+      "verification_status": "synthetic_unverified",
+      "payment_status": "unpaid",
+      "note": "Not a real document; replace with verified source data."
+    },
+    {
+      "id": "SYN-JDG-002",
+      "entity": "Feigin Electric Andrii Charnosh - JDG Polska",
+      "kind": "payable",
+      "document_type": "cost_invoice",
+      "counterparty": "Synthetic supplier A",
+      "issue_date": "2026-01-20",
+      "due_date": "2026-02-19",
+      "amount": 3000,
+      "currency": "PLN",
+      "source": "synthetic_demo_data",
+      "verification_status": "synthetic_unverified",
+      "payment_status": "pending",
+      "note": "Not a real document; replace with verified source data."
+    },
+    {
+      "id": "SYN-TH-001",
+      "entity": "Feigin Electric Co Ltd - Tajlandia",
+      "kind": "receivable",
+      "document_type": "invoice",
+      "counterparty": "Synthetic customer B",
+      "issue_date": "2026-01-12",
+      "due_date": "2026-02-11",
+      "amount": 85000,
+      "currency": "THB",
+      "source": "synthetic_demo_data",
+      "verification_status": "synthetic_unverified",
+      "payment_status": "paid",
+      "note": "Not a real document; replace with verified source data."
+    },
+    {
+      "id": "SYN-TH-002",
+      "entity": "Feigin Electric Co Ltd - Tajlandia",
+      "kind": "missing_material",
+      "document_type": "tax_decision",
+      "counterparty": "Thai accounting adviser",
+      "issue_date": null,
+      "due_date": null,
+      "amount": 0,
+      "currency": "THB",
+      "source": "synthetic_demo_data",
+      "verification_status": "requires_accountant_decision",
+      "payment_status": "not_applicable",
+      "note": "Tax treatment and required decision must be established with an accountant."
+    },
+    {
+      "id": "SYN-JDG-003",
+      "entity": "Feigin Electric Andrii Charnosh - JDG Polska",
+      "kind": "missing_material",
+      "document_type": "fakturownia_connection",
+      "counterparty": "Fakturownia",
+      "issue_date": null,
+      "due_date": null,
+      "amount": 0,
+      "currency": "PLN",
+      "source": "synthetic_demo_data",
+      "verification_status": "requires_configuration",
+      "payment_status": "not_applicable",
+      "note": "Production credentials and API mapping are not configured."
+    }
+  ]
+}
