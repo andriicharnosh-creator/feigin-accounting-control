@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feigin Accounting Control</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">FEIGIN / ACCOUNTING CONTROL</p>
+          <h1>Kontrola dokumentów i przepływów</h1>
+          <p class="lede">Lokalny rejestr od stycznia 2026. Dane demonstracyjne są syntetyczne i nie stanowią dokumentów księgowych.</p>
+        </div>
+        <div class="period">01.2026 → teraz</div>
+      </header>
+      <section class="notice" aria-label="Zakres bezpieczeństwa">
+        <strong>TRYB LOKALNY / SYNTHETIC ONLY</strong>
+        <span>Brak połączeń produkcyjnych, płatności, wysyłki i składania deklaracji.</span>
+      </section>
+      <section id="entities" class="entity-grid" aria-live="polite"></section>
+      <section class="records-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">REJESTR</p><h2>Dokumenty, należności i braki</h2></div>
+          <span id="currency-note" class="muted"></span>
+        </div>
+        <div class="table-wrap"><table><thead><tr><th>Podmiot / wpis</th><th>Typ</th><th>Kwota</th><th>Płatność</th><th>Weryfikacja</th></tr></thead><tbody id="records"></tbody></table></div>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
